@@ -35,10 +35,10 @@ _Values will be filled from the Vertex AI **Evaluate** tab using the held‑out 
 
 | Metric                   | Value | Notes                               |
 |--------------------------|-------|-------------------------------------|
-| AUC ROC                  | [ ]   | Overall ranking quality.           |
-| AUC PR (fraud = 1)       | [ ]   | Better for this imbalanced dataset.|
-| Precision (fraud = 1)    | [ ]   | Of predicted frauds, how many real.|
-| Recall (fraud = 1)       | [ ]   | Of real frauds, how many caught.   |
+| AUC ROC                  | 1   | Overall ranking quality.           |
+| AUC PR (fraud = 1)       | 1   | Better for this imbalanced dataset.|
+| Precision (fraud = 1)    | 99.94% | Of predicted frauds, how many real.|
+| Recall (fraud = 1)       | 99.94%   | Of real frauds, how many caught.   |
 
 ## Visual Evidence
 
