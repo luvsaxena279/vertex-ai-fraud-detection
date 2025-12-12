@@ -9,9 +9,13 @@ Detect fraudulent credit card transactions in near real time so the bank can blo
 ## Data
 
 - Source: Public **Credit Card Fraud Detection** dataset (`creditcard.csv`). [web:133][web:145]  
-- Size: ~284,807 transactions, 31 columns. [web:133]  
-- Features: `Time`, `Amount`, and 28 anonymized numeric features `V1`–`V28`. [web:133][web:148]  
-- Target: `Class` (0 = legitimate, 1 = fraud, highly imbalanced). [web:133][web:145]  
+- Size: **284,807** transactions and **31** columns. [web:133][web:145]  
+- Features:
+  - `Time`: Seconds elapsed between each transaction and the first transaction in the dataset.
+  - `V1`–`V28`: PCA‑transformed numerical features (original features are anonymized). [web:133][web:148]  
+  - `Amount`: Transaction amount.
+- Target:
+  - `Class`: Fraud label, where `0` = legitimate transaction and `1` = fraudulent transaction (highly imbalanced, ~0.17% fraud). [web:133][web:145] 
 
 ## Approach
 
