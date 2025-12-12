@@ -31,14 +31,14 @@ Detect fraudulent credit card transactions in near real time so the bank can blo
 
 ## Results
 
-_Actual metrics to be filled after training completes._
+_Values will be filled from the Vertex AI **Evaluate** tab using the held‑out test split._ [web:48][web:137]
 
-| Metric                   | Value | Notes                          |
-|--------------------------|-------|--------------------------------|
-| AUC ROC                  | [ ]   | Should be high for fraud data. |
-| AUC PR (fraud class)     | [ ]   | More informative under imbalance. |
-| Precision (fraud = 1)    | [ ]   | How many flagged are real fraud. |
-| Recall (fraud = 1)       | [ ]   | How many frauds are caught.     |
+| Metric                   | Value | Notes                               |
+|--------------------------|-------|-------------------------------------|
+| AUC ROC                  | [ ]   | Overall ranking quality.           |
+| AUC PR (fraud = 1)       | [ ]   | Better for this imbalanced dataset.|
+| Precision (fraud = 1)    | [ ]   | Of predicted frauds, how many real.|
+| Recall (fraud = 1)       | [ ]   | Of real frauds, how many caught.   |
 
 ## Visual Evidence
 
