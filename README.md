@@ -59,5 +59,5 @@ _Values will be filled from the Vertex AI **Evaluate** tab using the held‑out 
 - Handling highly imbalanced data with AutoML (AUC PR, threshold tuning). [web:117][web:138]  
 - Using Vertex AI AutoML for fast, production‑style fraud models without custom code. [web:1][web:137]
 
-**Built by [Luv Saxena] - AI Generalist Portfolio Project**  
+**Built by Luv Saxena - AI Generalist Portfolio Project**  
 *December 2025*
